@@ -31,7 +31,6 @@ img {
     width: 320px;
     height: 340px;
     object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
 }
 
 #cuentacarrito{
@@ -181,11 +180,14 @@ h2{
     gap: 50px;
     margin-bottom: 20px;
 }
+
 .container>div{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     background-color: #2c29c4;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 #container{
     margin-top: 80px;
 }
@@ -203,7 +205,7 @@ h2{
     gap:15px;
 }
 .informacion>p:first-child{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     font-weight: 300;
 }
@@ -222,7 +224,7 @@ h2{
     border-radius: 10px;
     border: none;
 
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     cursor: pointer;
 }
