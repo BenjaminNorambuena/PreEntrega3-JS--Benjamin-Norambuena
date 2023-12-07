@@ -80,7 +80,7 @@ function actualizarContadorCarrito() {
     cuentaCarrito.textContent = cantidadTotal.toString();
 }
 
-const botonesComprar = document.querySelectorAll(".card button");
+let botonesComprar = document.querySelectorAll(".card button");
 
 botonesComprar.forEach((boton) => {
     boton.addEventListener("click", function () {
